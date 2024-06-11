@@ -1,4 +1,6 @@
 /* styles.css */
+font-src 'self' data:;
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
