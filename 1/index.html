@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>25th Anniversary Invitation</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Adjusted CSP to allow loading fonts from Google Fonts -->
+    <meta http-equiv="Content-Security-Policy" content="font-src 'self' https://fonts.gstatic.com;">
+    <!-- Link to Google Fonts stylesheet -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -38,6 +42,7 @@
             <p>We look forward to celebrating with you!</p>
         </div>
     </footer>
+    <!-- Link to your custom JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>
